@@ -1,0 +1,74 @@
+body {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+}
+.container-fluid {
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+.navbar {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border: 0;
+    border-radius: 0;
+    margin-bottom: 0;
+    font-size: 12px;
+    letter-spacing: 5px;
+}
+.navbar-nav li a:hover {
+    color: #1abc9c !important;
+}
+.line-clamp-4 {
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    /* truncate to 4 lines */
+    -webkit-line-clamp: 2;
+}
+#postHeading {
+    font-size: 35px;
+    font-weight: bold;
+    color: #1abc9c;
+}
+input[type="text"], #postContent {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    font-size: 18px;
+    display: inline-block;
+    border: 3px solid #1abc9c;
+    box-sizing: border-box;
+    resize: none;
+    border-radius: 8px;
+}
+input[type="text"]:focus, #postContent:focus {
+    border: 3px solid #1abc9c;
+    border: none;
+}
+button {
+    background-color: #1abc9c;
+    color: white;
+    font-size: 18px;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    border-radius: 8px;
+}
+.footer {
+    position: sticky;
+    text-align: center;
+    padding: 15px 0;
+    bottom: 0;
+    width: 100%;
+    margin-top: 30px;
+    background-color: #1abc9c;
+}
+
+.footer p {
+    margin: auto auto;
+    font-size: 16px;
+    color: #fff;
+}

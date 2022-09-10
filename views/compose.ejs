@@ -1,0 +1,21 @@
+<%-include("./partials/header.ejs") %>
+
+<div>
+    <h2 id="postHeading" ><%=heading %></h2>
+    <form action="/compose.ejs" method="post">
+        <input type="text" name="postHeading" placeholder="Heading"             required
+/>
+        <textarea
+            type="textarea"
+            name="postContent"
+            id="postContent"
+            cols="20"
+            rows="8"
+            placeholder="Write here"
+            required
+        ></textarea>
+        <button type="submit" name="submit">Submit</button>
+    </form>
+</div>
+
+<%-include("./partials/footer.ejs") %>

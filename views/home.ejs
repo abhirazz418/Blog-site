@@ -1,0 +1,8 @@
+<%- include("./partials/header.ejs") -%>
+
+<h1>Home</h1>
+<% posts.forEach(function(post){ %>
+<H1><%=post.heading%></H1>
+<p class=".line-clamp-4"><%=post.content%></p>
+<a href="/post/<%=post.id%>">Read More...</a>
+<%}) %> <%- include("./partials/footer.ejs") -%>
